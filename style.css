@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+img {
+    height: 292px;
+    width: 292px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 26px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(209, 208, 208);
+
+}
+
+input {
+    padding: 2px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 5px;
+    border: 1px solid rgb(100, 99, 99);
+    height: 24px;
+    width: 136px;
+    color: rgb(204, 196, 196);
+    margin-right: 13px;
+}
+
+input::placeholder {
+    color: rgb(133, 130, 130);
+}
+
+.div-inputs-valores {
+    position: absolute;
+    bottom: 50px;
+    right: 500px;
+    top: 650px;
+    left: 637.5px;
+}
+
+
+button {
+    padding: 6px;
+    height: 30px;
+    width: 90px;
+    font-size: medium;
+    letter-spacing: 0.7px;
+    outline: none;
+    border: 1px solid rgb(204, 196, 196);
+    background-color: rgb(64, 64, 64);
+    color: rgb(133, 130, 130);
+    border-radius: 8px;
+    transition: 0.7s;
+    position: absolute;
+    right: 5px;
+    top: 720px;
+    left: 734.5px;
+}
+
+button:active {
+    opacity: 0.7;
+    transition: 0.8s;
+}
+
+
+
+
+
+button:hover {
+    opacity: 0.7;
+    transition: 0.8s;
+}
+.Resultado {
+    background-color: rgb(64, 64, 64);
+    padding: 20px;
+    width: 330px;
+    height: 120px;
+    position: absolute;
+    left: 610px;
+    border-radius: 15px;
+    color: rgb(133, 130, 130);
+    border: 1px solid rgb(204, 196, 196);
+    font-size: 30px;
+    justify-content: center;
+}
